@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEBA - Emo 'ya Mmbondo Australia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #004080, #0066cc);
+      color: #fff;
+      padding: 25px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      font-size: 1.1em;
+    }
+    nav {
+      background: #0066cc;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    nav a {
+      background: #004080;
+      color: #fff;
+      margin: 0 10px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    nav a:hover {
+      background: #003366;
+      transform: translateY(-2px);
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .hero img {
+      border-radius: 15px;
+      margin-top: 15px;
+      width: 200px;
+      height: 280px;
+      object-fit: cover;
+      border: 5px solid #ffdd03;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3), 0 0 20px rgba(0,102,204,0.6);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .hero img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.4), 0 0 35px rgba(0,102,204,0.9);
+    }
+    .hero h2 {
+      margin-top: 15px;
+      color: #004080;
+    }
+    .hero p {
+      max-width: 650px;
+      margin: 15px auto;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    section {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #004080;
+      margin-bottom: 15px;
+    }
+    .btn {
+      display: inline-block;
+      background: #0066cc;
+      color: #fff;
+      padding: 12px 22px;
+      margin-top: 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+      background: #004080;
+      transform: translateY(-2px);
+    }
+    h4 {
+      margin-top: 10px;
+      color: #8a7207;
+      text-align: center;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .contact-form h2 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 20px;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #0066cc;
+      box-shadow: 0 0 10px rgba(0,102,204,0.3);
+      outline: none;
+    }
+    .contact-form .btn {
+      display: block;
+      width: 100%;
+      background: #0066cc;
+      color: #fff;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .contact-form .btn:hover {
+      background: #004080;
+      transform: translateY(-2px);
+    }
+    footer {
+      background: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+      box-shadow: 0 -4px 6px rgba(0,0,0,0.2);
+    }
+    footer a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    h4 {
+      color: rgb(19, 122, 88);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to FEBA</h1>
+    <p>Your gateway to Emo 'ya Mmbondo Australia</p>
+  </header>
+
+  <nav>
+    <a href="About.html">About Us</a>
+    <a href="getinvolved.html">Services</a>
+    <a href="learnmore.html">Community</a>
+    <a href="FEBA.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="hero">
+      <img src="image/Theop.jpg" alt="President of Emo 'Ya Mmbondo">
+      <h2>Meet Our President</h2>
+      <h2>Theophile Elongo</h2>
+      <p>Theophile Elongo, our esteemed president, is a passionate advocate for the Emo 'ya Mmbondo community in Australia. With a vision to unite and empower, Theophile leads FEBA with dedication and commitment to preserving our culture and fostering growth among our members.</p>
+    </div>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>FEBA is dedicated to connecting and empowering the Emo 'ya Mmbondo community in Australia. Our mission is to preserve culture, strengthen bonds, and create opportunities for growth.</p>
+      <a href="learnmore.html" class="btn">Learn More</a>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We provide cultural programs, community events, and support services to help members stay connected and thrive together.</p>
+      <a href="learnmore.html" class="btn">Explore Services</a>
+    </section>
+
+    <section id="community">
+      <h2>Join Our Community</h2>
+      <p>Be part of our growing network. Stay updated with news, events, and opportunities to engage with fellow members.</p>
+      <a href="getinvolved.html" class="btn">Join Now</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>For more information, reach out to us via email or follow us on social media.</p>
+      <a href="mailto:info@feba.org" class="btn">Email Us</a>
+    </section>
+  </div>
+
+  <h4>Our Community, Our Pride</h4>
+  <h4>Any queries or to become a member, please fill out the form below:</h4>
+
+   <form action="https://formsubmit.co/selsogroup@gmail.com" method="POST" class="contact-form" >
+
+    <h2>Contact Form -</h2>
+        <br> 
+
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" placeholder="message" required></textarea>
+    
+    <input type="submit" value="Submit" class="btn">
+    <input type="hidden" name="_autoresponse" value="Thank you for contacting FEBA! We have received your message and will get back to you shortly.">
+   
+</form>
+
+    <footer>
+        <p>&copy; 2026 FiziBrains 
+            <br>FEBA | Follow us on social media for updates</p>
+        <p>
+            <a href="https://www.facebook.com/feba" style="color: #fff; margin: 0 10px;">Facebook</a> |
+            <a href="https://www.twitter.com/feba" style="color: #fff; margin: 0 10px;">Twitter</a> |
+            <a href="https://www.instagram.com/feba" style="color: #fff; margin: 0 10px;">Instagram</a>
+        </p>
+        <br>
+        <br>
+        <h4>FiziBrains || Dev: Maleunda</h4> 
+
+     </footer>
+</body>
+</html>
